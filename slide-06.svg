@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="'Source Sans 3', Arial, 'PingFang TC', 'Microsoft JhengHei', 'Noto Sans TC', sans-serif">
+  <!-- ===== Editorial Infographic · Slide 06 · Mixed Grid ===== -->
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#f8f9fa"/>
+
+  <!-- Defs: filters, gradients -->
+  <defs>
+    <filter id="shadow-md" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#1b2838" flood-opacity="0.10"/>
+    </filter>
+    <filter id="shadow-lg" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#1b2838" flood-opacity="0.18"/>
+    </filter>
+    <linearGradient id="rank-card-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b2838"/>
+      <stop offset="100%" stop-color="#2c3e50"/>
+    </linearGradient>
+    <linearGradient id="bar-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e74c3c"/>
+      <stop offset="100%" stop-color="#c0392b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Decorative editorial marks -->
+  <g data-decorative="true">
+    <rect x="60" y="60" width="6" height="52" fill="#e74c3c"/>
+    <circle cx="1215" cy="86" r="3" fill="#e74c3c"/>
+    <circle cx="1200" cy="86" r="3" fill="#1b2838" opacity="0.25"/>
+    <circle cx="1185" cy="86" r="3" fill="#1b2838" opacity="0.12"/>
+  </g>
+
+  <!-- ===== Header ===== -->
+  <text x="80" y="82" fill="#e74c3c" font-size="13" font-weight="700" letter-spacing="4">PART 01 / TAIPEI · TOP 3 VALUE DISTRICTS</text>
+  <text x="80" y="126" fill="#1b2838" font-size="36" font-weight="700" font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Microsoft JhengHei', serif">台北市性價比三強：北投 · 文山 · 萬華</text>
+  <text x="80" y="158" fill="#4a6fa5" font-size="17" font-weight="400">蛋白三區的 CP 值亮點與共通風險 — 1500 萬預算的最佳解</text>
+  <line x1="80" y1="182" x2="1200" y2="182" stroke="#e9ecef" stroke-width="1"/>
+  <text x="1200" y="174" fill="#1b2838" font-size="12" font-weight="600" text-anchor="end" opacity="0.55" letter-spacing="2">06 / 13</text>
+
+  <!-- ===== LEFT CARD · CP Index Chart ===== -->
+  <g transform="translate(80,205)">
+    <rect width="560" height="440" rx="6" fill="#ffffff" stroke="#e9ecef" stroke-width="1" filter="url(#shadow-md)"/>
+
+    <!-- Card header -->
+    <rect x="0" y="0" width="4" height="440" fill="#e74c3c"/>
+    <text x="28" y="44" fill="#1b2838" font-size="20" font-weight="700" font-family="'DM Serif Display', Georgia, 'PingFang TC', serif">CP 值指數</text>
+    <text x="28" y="66" fill="#4a6fa5" font-size="13" font-weight="400">綜合坪效 × 機能 × 題材 × 議價空間</text>
+    <text x="532" y="44" fill="#1b2838" font-size="12" font-weight="600" text-anchor="end" opacity="0.5" letter-spacing="2">/ 100</text>
+
+    <line x1="28" y1="82" x2="532" y2="82" stroke="#e9ecef" stroke-width="1"/>
+
+    <!-- Bar 1: 北投 92 -->
+    <g transform="translate(28,108)">
+      <text x="0" y="0" fill="#1b2838" font-size="16" font-weight="700">北投</text>
+      <text x="44" y="0" fill="#4a6fa5" font-size="12" font-weight="400">BEITOU · 均價 58 萬/坪</text>
+      <rect x="0" y="14" width="504" height="24" rx="3" fill="#f1f3f5"/>
+      <rect x="0" y="14" width="463" height="24" rx="3" fill="url(#bar-grad)"/>
+      <text x="454" y="31" fill="#ffffff" font-size="13" font-weight="700" text-anchor="end">92</text>
+    </g>
+
+    <!-- Bar 2: 文山 88 -->
+    <g transform="translate(28,184)">
+      <text x="0" y="0" fill="#1b2838" font-size="16" font-weight="700">文山</text>
+      <text x="44" y="0" fill="#4a6fa5" font-size="12" font-weight="400">WENSHAN · 均價 53 萬/坪 · 全市最低</text>
+      <rect x="0" y="14" width="504" height="24" rx="3" fill="#f1f3f5"/>
+      <rect x="0" y="14" width="443" height="24" rx="3" fill="#3498db"/>
+      <text x="434" y="31" fill="#ffffff" font-size="13" font-weight="700" text-anchor="end">88</text>
+    </g>
+
+    <!-- Bar 3: 萬華 82 -->
+    <g transform="translate(28,260)">
+      <text x="0" y="0" fill="#1b2838" font-size="16" font-weight="700">萬華</text>
+      <text x="44" y="0" fill="#4a6fa5" font-size="12" font-weight="400">WANHUA · 均價 56 萬/坪</text>
+      <rect x="0" y="14" width="504" height="24" rx="3" fill="#f1f3f5"/>
+      <rect x="0" y="14" width="413" height="24" rx="3" fill="#1a8740"/>
+      <text x="404" y="31" fill="#ffffff" font-size="13" font-weight="700" text-anchor="end">82</text>
+    </g>
+
+    <!-- Risk callout -->
+    <g transform="translate(28,320)">
+      <rect x="0" y="0" width="504" height="98" rx="4" fill="#fff5f4" stroke="#f5c6c2" stroke-width="1"/>
+      <rect x="0" y="0" width="3" height="98" fill="#e74c3c"/>
+      <text x="18" y="26" fill="#e74c3c" font-size="12" font-weight="700" letter-spacing="3">RISK NOTICE · 共通風險</text>
+      <text x="18" y="52" fill="#1b2838" font-size="14" font-weight="700">老屋比例高 · 貸款成數需留意</text>
+      <text x="18" y="74" fill="#4a6fa5" font-size="13">屋齡中位數 35+ 年、部分社區管線需整修；</text>
+      <text x="18" y="92" fill="#4a6fa5" font-size="13">銀行估價與成數可能偏保守，宜備足頭款緩衝。</text>
+    </g>
+  </g>
+
+  <!-- ===== RIGHT COLUMN · Three ranked cards ===== -->
+  <!-- Cards shifted up to y=195/347/499; bottom of NO.3 = 499+138 = 637, footer at y=655 → 18px gap -->
+
+  <!-- NO.1 北投 -->
+  <g transform="translate(660,195)">
+    <rect width="540" height="138" rx="6" fill="url(#rank-card-grad)" filter="url(#shadow-lg)"/>
+    <rect x="0" y="0" width="84" height="138" rx="6" fill="#e74c3c"/>
+    <text x="42" y="58" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="2">NO.</text>
+    <text x="42" y="104" fill="#ffffff" font-size="52" font-weight="700" text-anchor="middle" font-family="'DM Serif Display', Georgia, serif">1</text>
+    <text x="108" y="40" fill="#e74c3c" font-size="12" font-weight="700" letter-spacing="3">BEITOU · 坪效王</text>
+    <text x="108" y="72" fill="#ffffff" font-size="22" font-weight="700" font-family="'DM Serif Display', Georgia, 'PingFang TC', serif">北投 · 2 房 24–26 坪可達</text>
+    <text x="108" y="98" fill="#8ea4bf" font-size="13">NVIDIA 總部題材加持 · 新北投捷運宅 · 均價 58 萬/坪</text>
+    <g transform="translate(108,110)">
+      <rect x="0" y="0" width="70" height="20" rx="2" fill="#ffffff" opacity="0.10"/>
+      <text x="35" y="14" fill="#ffffff" font-size="12" font-weight="600" text-anchor="middle">CP 92</text>
+      <rect x="78" y="0" width="90" height="20" rx="2" fill="#ffffff" opacity="0.10"/>
+      <text x="123" y="14" fill="#ffffff" font-size="12" font-weight="600" text-anchor="middle">坪數最大</text>
+      <rect x="176" y="0" width="90" height="20" rx="2" fill="#ffffff" opacity="0.10"/>
+      <text x="221" y="14" fill="#ffffff" font-size="12" font-weight="600" text-anchor="middle">題材最強</text>
+    </g>
+  </g>
+
+  <!-- NO.2 文山 -->
+  <g transform="translate(660,347)">
+    <rect width="540" height="138" rx="6" fill="url(#rank-card-grad)" filter="url(#shadow-lg)"/>
+    <rect x="0" y="0" width="84" height="138" rx="6" fill="#3498db"/>
+    <text x="42" y="58" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="2">NO.</text>
+    <text x="42" y="104" fill="#ffffff" font-size="52" font-weight="700" text-anchor="middle" font-family="'DM Serif Display', Georgia, serif">2</text>
+    <text x="108" y="40" fill="#3498db" font-size="12" font-weight="700" letter-spacing="3">WENSHAN · 價格王</text>
+    <text x="108" y="72" fill="#ffffff" font-size="22" font-weight="700" font-family="'DM Serif Display', Georgia, 'PingFang TC', serif">文山 · 政大商圈 2 房 26 坪</text>
+    <text x="108" y="98" fill="#8ea4bf" font-size="13">環境清幽、首購族熱區 · 均價 53 萬/坪（台北市最低）</text>
+    <g transform="translate(108,110)">
+      <rect x="0" y="0" width="70" height="20" rx="2" fill="#ffffff" opacity="0.10"/>
+      <text x="35" y="14" fill="#ffffff" font-size="12" font-weight="600" text-anchor="middle">CP 88</text>
+      <rect x="78" y="0" width="90" height="20" rx="2" fill="#ffffff" opacity="0.10"/>
+      <text x="123" y="14" fill="#ffffff" font-size="12" font-weight="600" text-anchor="middle">單價最低</text>
+      <rect x="176" y="0" width="90" height="20" rx="2" fill="#ffffff" opacity="0.10"/>
+      <text x="221" y="14" fill="#ffffff" font-size="12" font-weight="600" text-anchor="middle">學區優勢</text>
+    </g>
+  </g>
+
+  <!-- NO.3 萬華 -->
+  <g transform="translate(660,499)">
+    <rect width="540" height="138" rx="6" fill="url(#rank-card-grad)" filter="url(#shadow-lg)"/>
+    <rect x="0" y="0" width="84" height="138" rx="6" fill="#1a8740"/>
+    <text x="42" y="58" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="2">NO.</text>
+    <text x="42" y="104" fill="#ffffff" font-size="52" font-weight="700" text-anchor="middle" font-family="'DM Serif Display', Georgia, serif">3</text>
+    <text x="108" y="40" fill="#2ecc71" font-size="12" font-weight="700" letter-spacing="3">WANHUA · 題材王</text>
+    <text x="108" y="72" fill="#ffffff" font-size="22" font-weight="700" font-family="'DM Serif Display', Georgia, 'PingFang TC', serif">萬華 · 老公寓 + 都更題材</text>
+    <text x="108" y="98" fill="#8ea4bf" font-size="13">西門商圈機能王 · 1000 萬內佔比 28.9% 全市最高 · 均價 56 萬/坪</text>
+    <g transform="translate(108,110)">
+      <rect x="0" y="0" width="70" height="20" rx="2" fill="#ffffff" opacity="0.10"/>
+      <text x="35" y="14" fill="#ffffff" font-size="12" font-weight="600" text-anchor="middle">CP 82</text>
+      <rect x="78" y="0" width="90" height="20" rx="2" fill="#ffffff" opacity="0.10"/>
+      <text x="123" y="14" fill="#ffffff" font-size="12" font-weight="600" text-anchor="middle">都更紅利</text>
+      <rect x="176" y="0" width="90" height="20" rx="2" fill="#ffffff" opacity="0.10"/>
+      <text x="221" y="14" fill="#ffffff" font-size="12" font-weight="600" text-anchor="middle">低總價</text>
+    </g>
+  </g>
+
+  <text x="60" y="694" font-size="12" fill="#8a9ab0" letter-spacing="1">HOMELAB · 雙北 500-1500 萬購屋指南</text>
+  <text x="1220" y="694" text-anchor="end" font-size="12" fill="#8a9ab0" letter-spacing="1">06 / 13</text>
+</svg>

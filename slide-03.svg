@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="'Source Sans 3', Arial, 'PingFang TC', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif">
+  <!-- ================= Definitions ================= -->
+  <defs>
+    <filter id="card-shadow-md" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#1b2838" flood-opacity="0.10"/>
+    </filter>
+    <filter id="card-shadow-lg" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="6" stdDeviation="14" flood-color="#1b2838" flood-opacity="0.18"/>
+    </filter>
+    <filter id="card-shadow-sm" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#1b2838" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="hero-dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b2838"/>
+      <stop offset="100%" stop-color="#2c3e50"/>
+    </linearGradient>
+    <linearGradient id="card-highlight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8f9fa"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ================= Canvas background ================= -->
+  <rect width="1280" height="720" fill="#f8f9fa"/>
+
+  <!-- ================= Decorative editorial marks ================= -->
+  <g data-decorative="true">
+    <!-- Accent ruling line above section label -->
+    <line x1="60" y1="64" x2="112" y2="64" stroke="#e74c3c" stroke-width="3" stroke-linecap="square"/>
+    <!-- Faint oversized section numeral in the background -->
+    <text x="1220" y="148" font-family="'DM Serif Display', Georgia, serif" font-size="120" font-weight="400" fill="#1b2838" fill-opacity="0.05" text-anchor="end">03</text>
+  </g>
+
+  <!-- ================= Header: eyebrow + title + subtitle ================= -->
+  <text x="124" y="70" font-size="13" font-weight="700" fill="#e74c3c" letter-spacing="3">PART 1 — MARKET OVERVIEW</text>
+  <text x="60" y="118" font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Serif TC', serif" font-size="42" font-weight="700" fill="#1b2838">2026 雙北房市大盤景</text>
+  <text x="60" y="150" font-size="18" fill="#4a6fa5">抗跌、緩跌、剛需支撐的買方市場</text>
+
+  <!-- Divider under header -->
+  <line x1="60" y1="178" x2="1220" y2="178" stroke="#e9ecef" stroke-width="1"/>
+
+  <!-- ================= Row 1: four KPI cards ================= -->
+  <!-- Card widths chosen so four cards + 3 gaps fit 1160 usable width: 275 * 4 + 20 * 3 = 1160 -->
+
+  <!-- Card 1: 台北市跌幅 -->
+  <g transform="translate(60,200)">
+    <rect width="275" height="148" rx="6" fill="#ffffff" stroke="#e9ecef" filter="url(#card-shadow-md)"/>
+    <text x="22" y="38" font-size="12" font-weight="700" fill="#4a6fa5" letter-spacing="2">TAIPEI  跌幅</text>
+    <text x="22" y="100" font-family="'DM Serif Display', Georgia, serif" font-size="60" font-weight="700" fill="#1b2838">5.4</text>
+    <text x="138" y="100" font-size="18" fill="#4a6fa5">%</text>
+    <g transform="translate(22,118)">
+      <rect width="94" height="22" rx="3" fill="#2ecc71" fill-opacity="0.12"/>
+      <text x="47" y="16" text-anchor="middle" font-size="12" font-weight="700" fill="#1b8a4a">七都最小</text>
+    </g>
+    <text x="130" y="134" font-size="13" fill="#1b2838" fill-opacity="0.55">累計跌幅, 2022–2026</text>
+  </g>
+
+  <!-- Card 2: 新北市跌幅 -->
+  <g transform="translate(355,200)">
+    <rect width="275" height="148" rx="6" fill="#ffffff" stroke="#e9ecef" filter="url(#card-shadow-md)"/>
+    <text x="22" y="38" font-size="12" font-weight="700" fill="#4a6fa5" letter-spacing="2">NEW TAIPEI  跌幅</text>
+    <text x="22" y="100" font-family="'DM Serif Display', Georgia, serif" font-size="60" font-weight="700" fill="#1b2838">4.8</text>
+    <text x="138" y="100" font-size="18" fill="#4a6fa5">%</text>
+    <g transform="translate(22,118)">
+      <rect width="94" height="22" rx="3" fill="#2ecc71" fill-opacity="0.12"/>
+      <text x="47" y="16" text-anchor="middle" font-size="12" font-weight="700" fill="#1b8a4a">緩跌抗跌</text>
+    </g>
+    <text x="130" y="134" font-size="13" fill="#1b2838" fill-opacity="0.55">均價 58 萬/坪</text>
+  </g>
+
+  <!-- Card 3: 議價率 -->
+  <g transform="translate(650,200)">
+    <rect width="275" height="148" rx="6" fill="#ffffff" stroke="#e9ecef" filter="url(#card-shadow-md)"/>
+    <text x="22" y="38" font-size="12" font-weight="700" fill="#4a6fa5" letter-spacing="2">BARGAIN RATE  議價率</text>
+    <text x="22" y="100" font-family="'DM Serif Display', Georgia, serif" font-size="60" font-weight="700" fill="#e74c3c">12.8</text>
+    <text x="176" y="100" font-size="18" fill="#4a6fa5">%</text>
+    <g transform="translate(22,118)">
+      <rect width="94" height="22" rx="3" fill="#e74c3c" fill-opacity="0.12"/>
+      <text x="47" y="16" text-anchor="middle" font-size="12" font-weight="700" fill="#c0392b">買方市場</text>
+    </g>
+    <text x="130" y="134" font-size="13" fill="#1b2838" fill-opacity="0.55">新北 11.5%, 七都之最</text>
+  </g>
+
+  <!-- Card 4: 預售交易量 (dark accent) -->
+  <g transform="translate(945,200)">
+    <rect width="275" height="148" rx="6" fill="url(#hero-dark)" filter="url(#card-shadow-lg)"/>
+    <text x="22" y="38" font-size="12" font-weight="700" fill="#f39c12" letter-spacing="2">PRE-SALE  預售交易</text>
+    <text x="22" y="100" font-family="'DM Serif Display', Georgia, serif" font-size="56" font-weight="700" fill="#ffffff">−74.7</text>
+    <text x="200" y="100" font-size="18" fill="#ffffff" fill-opacity="0.7">%</text>
+    <g transform="translate(22,118)">
+      <rect width="94" height="22" rx="3" fill="#ffffff" fill-opacity="0.12"/>
+      <text x="47" y="16" text-anchor="middle" font-size="12" font-weight="700" fill="#f39c12">急凍</text>
+    </g>
+    <text x="130" y="134" font-size="13" fill="#ffffff" fill-opacity="0.6">年減, 中古屋成主戰場</text>
+  </g>
+
+  <!-- ================= Row 2: left chart (780w) + right takeaways (360w) ================= -->
+
+  <!-- Chart card: 七都累計跌幅 -->
+  <g transform="translate(60,370)">
+    <rect width="780" height="290" rx="6" fill="#ffffff" stroke="#e9ecef" filter="url(#card-shadow-md)"/>
+
+    <!-- Card title + subtitle -->
+    <text x="24" y="42" font-family="'DM Serif Display', Georgia, 'PingFang TC', serif" font-size="22" font-weight="700" fill="#1b2838">七都累計跌幅比較</text>
+    <text x="24" y="66" font-size="13" fill="#1b2838" fill-opacity="0.6">2022–2026, 單位%｜雙北抗跌特性明確，其餘五都跌幅擴大</text>
+
+    <!-- Divider -->
+    <line x1="24" y1="82" x2="756" y2="82" stroke="#e9ecef" stroke-width="1"/>
+
+    <!-- Horizontal bar chart: 6 rows, each 28px tall, 6px gap.
+         Chart x-origin at 100 (after label column), bar max width 520. Max value 8.3 → scale = 520/10 = 52 px per % -->
+    <g transform="translate(24,104)">
+
+      <!-- Row: 台北 (5.4) -->
+      <g transform="translate(0,0)">
+        <text x="0" y="18" font-size="14" font-weight="700" fill="#1b2838">台北</text>
+        <rect x="72" y="4" width="281" height="20" rx="3" fill="#e74c3c"/>
+        <text x="360" y="18" font-size="14" font-weight="700" fill="#1b2838">5.4%</text>
+      </g>
+      <!-- Row: 新北 (4.8) -->
+      <g transform="translate(0,26)">
+        <text x="0" y="18" font-size="14" font-weight="700" fill="#1b2838">新北</text>
+        <rect x="72" y="4" width="250" height="20" rx="3" fill="#e74c3c"/>
+        <text x="329" y="18" font-size="14" font-weight="700" fill="#1b2838">4.8%</text>
+      </g>
+      <!-- Row: 桃園 (6.2) -->
+      <g transform="translate(0,52)">
+        <text x="0" y="18" font-size="14" fill="#1b2838" fill-opacity="0.72">桃園</text>
+        <rect x="72" y="4" width="322" height="20" rx="3" fill="#4a6fa5" fill-opacity="0.5"/>
+        <text x="401" y="18" font-size="14" fill="#1b2838" fill-opacity="0.72">6.2%</text>
+      </g>
+      <!-- Row: 台中 (7.1) -->
+      <g transform="translate(0,78)">
+        <text x="0" y="18" font-size="14" fill="#1b2838" fill-opacity="0.72">台中</text>
+        <rect x="72" y="4" width="369" height="20" rx="3" fill="#4a6fa5" fill-opacity="0.5"/>
+        <text x="448" y="18" font-size="14" fill="#1b2838" fill-opacity="0.72">7.1%</text>
+      </g>
+      <!-- Row: 台南 (7.8) -->
+      <g transform="translate(0,104)">
+        <text x="0" y="18" font-size="14" fill="#1b2838" fill-opacity="0.72">台南</text>
+        <rect x="72" y="4" width="406" height="20" rx="3" fill="#4a6fa5" fill-opacity="0.5"/>
+        <text x="485" y="18" font-size="14" fill="#1b2838" fill-opacity="0.72">7.8%</text>
+      </g>
+      <!-- Row: 高雄 (8.3) -->
+      <g transform="translate(0,130)">
+        <text x="0" y="18" font-size="14" fill="#1b2838" fill-opacity="0.72">高雄</text>
+        <rect x="72" y="4" width="432" height="20" rx="3" fill="#4a6fa5" fill-opacity="0.5"/>
+        <text x="511" y="18" font-size="14" fill="#1b2838" fill-opacity="0.72">8.3%</text>
+      </g>
+    </g>
+
+    <!-- Legend -->
+    <g transform="translate(24,270)" font-size="12" fill="#1b2838" fill-opacity="0.7">
+      <rect x="0" y="-10" width="12" height="12" rx="2" fill="#e74c3c"/>
+      <text x="18" y="0">雙北（抗跌）</text>
+      <rect x="120" y="-10" width="12" height="12" rx="2" fill="#4a6fa5" fill-opacity="0.5"/>
+      <text x="138" y="0">其他五都</text>
+    </g>
+  </g>
+
+  <!-- Key Takeaways card (dark hero accent) -->
+  <g transform="translate(860,370)">
+    <rect width="360" height="290" rx="6" fill="url(#hero-dark)" filter="url(#card-shadow-lg)"/>
+
+    <!-- Accent rule -->
+    <line x1="24" y1="34" x2="56" y2="34" stroke="#f39c12" stroke-width="3" stroke-linecap="square"/>
+    <text x="24" y="64" font-size="12" font-weight="700" fill="#f39c12" letter-spacing="3">KEY TAKEAWAYS</text>
+    <text x="24" y="92" font-family="'DM Serif Display', Georgia, 'PingFang TC', serif" font-size="22" font-weight="700" fill="#ffffff">四個關鍵訊號</text>
+
+    <!-- Bullet list -->
+    <g font-size="14" fill="#ffffff" fill-opacity="0.92">
+      <g transform="translate(24,122)">
+        <text font-family="'DM Serif Display', Georgia, serif" font-size="18" font-weight="700" fill="#f39c12">01</text>
+        <text x="34" y="0" font-weight="700">雙北累計跌幅 4.8–5.4%</text>
+        <text x="34" y="22" fill-opacity="0.7">為七都最小，抗跌穩健</text>
+      </g>
+      <g transform="translate(24,182)">
+        <text font-family="'DM Serif Display', Georgia, serif" font-size="18" font-weight="700" fill="#f39c12">02</text>
+        <text x="34" y="0" font-weight="700">議價率 11–12.8%</text>
+        <text x="34" y="22" fill-opacity="0.7">買方談判空間擴大</text>
+      </g>
+      <g transform="translate(24,242)">
+        <text font-family="'DM Serif Display', Georgia, serif" font-size="18" font-weight="700" fill="#f39c12">03</text>
+        <text x="34" y="0" font-weight="700">預售量急凍、中古屋主戰場</text>
+      </g>
+    </g>
+  </g>
+
+  <text x="60" y="694" font-size="12" fill="#8a9ab0" letter-spacing="1">HOMELAB · 雙北 500-1500 萬購屋指南</text>
+  <text x="1220" y="694" text-anchor="end" font-size="12" fill="#8a9ab0" letter-spacing="1">03 / 13</text>
+</svg>

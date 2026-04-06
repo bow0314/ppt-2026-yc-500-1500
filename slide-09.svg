@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="'Source Sans 3', Arial, 'PingFang TC', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif">
+  <!-- Layout: mixed_grid / Editorial Infographic -->
+
+  <defs>
+    <filter id="card-shadow-md" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="card-shadow-lg" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="hero-dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b2838"/>
+      <stop offset="100%" stop-color="#2c3e50"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Slide background -->
+  <rect width="1280" height="720" fill="#f8f9fa"/>
+
+  <!-- Decorative red accent bar (editorial signature) -->
+  <g data-decorative="true">
+    <rect x="60" y="60" width="56" height="4" fill="#e74c3c"/>
+  </g>
+
+  <!-- Header: eyebrow + title + subtitle -->
+  <text x="60" y="90" fill="#e74c3c" font-size="13" font-weight="700" letter-spacing="3">PART 2 · NEW TAIPEI · TOP 3</text>
+  <text x="60" y="138" fill="#1b2838" font-size="38" font-weight="700"
+        font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Sans TC', serif">新北市性價比 Top3</text>
+  <text x="395" y="138" fill="#4a6fa5" font-size="28" font-weight="600">｜新莊 · 汐止 · 淡水</text>
+  <text x="60" y="170" fill="#4a6fa5" font-size="17">交通、機能、坪效 — 三種極致解，對應三種買方需求</text>
+
+  <!-- Header divider -->
+  <line x1="60" y1="192" x2="1220" y2="192" stroke="#e9ecef" stroke-width="1"/>
+  <line x1="60" y1="192" x2="260" y2="192" stroke="#1b2838" stroke-width="2"/>
+
+  <!-- ============================= -->
+  <!-- ROW 1: Three ranked hero cards -->
+  <!-- ============================= -->
+
+  <!-- Card 1: 新莊 (NO.1 機能王) -->
+  <g transform="translate(60,214)" filter="url(#card-shadow-lg)">
+    <rect width="373" height="268" rx="6" fill="#ffffff" stroke="#e9ecef"/>
+    <!-- Rank badge -->
+    <rect x="0" y="0" width="373" height="44" rx="6" fill="#1b2838"/>
+    <rect x="0" y="38" width="373" height="6" fill="#1b2838"/>
+    <text x="24" y="29" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="3">NO. 01  ·  機能王</text>
+    <text x="349" y="29" fill="#e74c3c" font-size="12" font-weight="700" text-anchor="end" letter-spacing="2">◆ ACCESS</text>
+
+    <!-- District name -->
+    <text x="24" y="104" fill="#1b2838" font-size="52" font-weight="700"
+          font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Sans TC', serif">新莊</text>
+    <text x="170" y="104" fill="#4a6fa5" font-size="16" font-weight="600">Xinzhuang</text>
+
+    <!-- Red underline -->
+    <rect x="24" y="118" width="48" height="3" fill="#e74c3c"/>
+
+    <!-- Headline benefit -->
+    <text x="24" y="154" fill="#1b2838" font-size="18" font-weight="700">三捷運交會・副都心熱區</text>
+
+    <!-- Body details -->
+    <text x="24" y="184" fill="#4a6fa5" font-size="14">環狀線 · 機場線 · 新蘆線</text>
+    <text x="24" y="206" fill="#4a6fa5" font-size="14">副都心 2 房新成屋指標</text>
+
+    <!-- Bottom metric strip -->
+    <line x1="24" y1="222" x2="349" y2="222" stroke="#e9ecef"/>
+    <text x="24" y="246" fill="#1b2838" opacity="0.6" font-size="12" font-weight="600" letter-spacing="1">2020-2024 漲幅</text>
+    <text x="349" y="250" fill="#e74c3c" font-size="26" font-weight="700" text-anchor="end"
+          font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Sans TC', serif">+34%</text>
+  </g>
+
+  <!-- Card 2: 汐止 (NO.2 通勤王) -->
+  <g transform="translate(453,214)" filter="url(#card-shadow-lg)">
+    <rect width="373" height="268" rx="6" fill="#ffffff" stroke="#e9ecef"/>
+    <!-- Rank badge -->
+    <rect x="0" y="0" width="373" height="44" rx="6" fill="#1b2838"/>
+    <rect x="0" y="38" width="373" height="6" fill="#1b2838"/>
+    <text x="24" y="29" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="3">NO. 02  ·  通勤王</text>
+    <text x="349" y="29" fill="#e74c3c" font-size="12" font-weight="700" text-anchor="end" letter-spacing="2">◆ COMMUTE</text>
+
+    <!-- District name -->
+    <text x="24" y="104" fill="#1b2838" font-size="52" font-weight="700"
+          font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Sans TC', serif">汐止</text>
+    <text x="170" y="104" fill="#4a6fa5" font-size="16" font-weight="600">Xizhi</text>
+
+    <!-- Red underline -->
+    <rect x="24" y="118" width="48" height="3" fill="#e74c3c"/>
+
+    <!-- Headline benefit -->
+    <text x="24" y="154" fill="#1b2838" font-size="18" font-weight="700">南港內湖通勤族首選</text>
+
+    <!-- Body details -->
+    <text x="24" y="184" fill="#4a6fa5" font-size="14">均坪 4 字頭 · 總價門檻最低</text>
+    <text x="24" y="206" fill="#4a6fa5" font-size="14">汐東線延伸題材加持</text>
+
+    <!-- Bottom metric strip -->
+    <line x1="24" y1="222" x2="349" y2="222" stroke="#e9ecef"/>
+    <text x="24" y="246" fill="#1b2838" opacity="0.6" font-size="12" font-weight="600" letter-spacing="1">汐東線通車</text>
+    <text x="349" y="250" fill="#e74c3c" font-size="26" font-weight="700" text-anchor="end"
+          font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Sans TC', serif">2032</text>
+  </g>
+
+  <!-- Card 3: 淡水 (NO.3 坪效王) -->
+  <g transform="translate(846,214)" filter="url(#card-shadow-lg)">
+    <rect width="374" height="268" rx="6" fill="#ffffff" stroke="#e9ecef"/>
+    <!-- Rank badge -->
+    <rect x="0" y="0" width="374" height="44" rx="6" fill="#1b2838"/>
+    <rect x="0" y="38" width="374" height="6" fill="#1b2838"/>
+    <text x="24" y="29" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="3">NO. 03  ·  坪效王</text>
+    <text x="350" y="29" fill="#e74c3c" font-size="12" font-weight="700" text-anchor="end" letter-spacing="2">◆ SPACE</text>
+
+    <!-- District name -->
+    <text x="24" y="104" fill="#1b2838" font-size="52" font-weight="700"
+          font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Sans TC', serif">淡水</text>
+    <text x="170" y="104" fill="#4a6fa5" font-size="16" font-weight="600">Tamsui</text>
+
+    <!-- Red underline -->
+    <rect x="24" y="118" width="48" height="3" fill="#e74c3c"/>
+
+    <!-- Headline benefit -->
+    <text x="24" y="154" fill="#1b2838" font-size="18" font-weight="700">家庭首購・空間最大</text>
+
+    <!-- Body details -->
+    <text x="24" y="184" fill="#4a6fa5" font-size="14">1500 萬可買 44.2 坪</text>
+    <text x="24" y="206" fill="#4a6fa5" font-size="14">新北最大坪數 · 均價 38 萬/坪</text>
+
+    <!-- Bottom metric strip -->
+    <line x1="24" y1="222" x2="350" y2="222" stroke="#e9ecef"/>
+    <text x="24" y="246" fill="#1b2838" opacity="0.6" font-size="12" font-weight="600" letter-spacing="1">1500萬可購坪數</text>
+    <text x="350" y="250" fill="#e74c3c" font-size="26" font-weight="700" text-anchor="end"
+          font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Sans TC', serif">44.2 坪</text>
+  </g>
+
+  <!-- ============================= -->
+  <!-- ROW 2: Comparison bars + Dark horse -->
+  <!-- ============================= -->
+
+  <!-- Comparison bars card (left, 2/3) -->
+  <g transform="translate(60,502)" filter="url(#card-shadow-md)">
+    <rect width="766" height="158" rx="6" fill="#ffffff" stroke="#e9ecef"/>
+
+    <!-- Card title -->
+    <text x="24" y="34" fill="#1b2838" font-size="16" font-weight="700"
+          font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Sans TC', serif">三維度強項指數</text>
+    <text x="164" y="34" fill="#4a6fa5" opacity="0.7" font-size="12">Strength Index · 0-100</text>
+    <rect x="24" y="42" width="28" height="2" fill="#e74c3c"/>
+
+    <!-- Axis baseline -->
+    <line x1="148" y1="56" x2="148" y2="142" stroke="#e9ecef"/>
+
+    <!-- New Chuang (機能) -->
+    <text x="140" y="74" fill="#1b2838" font-size="13" font-weight="700" text-anchor="end">新莊・機能</text>
+    <rect x="156" y="60" width="560" height="18" rx="3" fill="#f1f3f5"/>
+    <rect x="156" y="60" width="532" height="18" rx="3" fill="#e74c3c"/>
+    <text x="695" y="74" fill="#e74c3c" font-size="13" font-weight="700">95</text>
+
+    <!-- Xizhi (通勤) -->
+    <text x="140" y="104" fill="#1b2838" font-size="13" font-weight="700" text-anchor="end">汐止・通勤</text>
+    <rect x="156" y="90" width="560" height="18" rx="3" fill="#f1f3f5"/>
+    <rect x="156" y="90" width="493" height="18" rx="3" fill="#3498db"/>
+    <text x="656" y="104" fill="#3498db" font-size="13" font-weight="700">88</text>
+
+    <!-- Tamsui (坪效) -->
+    <text x="140" y="134" fill="#1b2838" font-size="13" font-weight="700" text-anchor="end">淡水・坪效</text>
+    <rect x="156" y="120" width="560" height="18" rx="3" fill="#f1f3f5"/>
+    <rect x="156" y="120" width="515" height="18" rx="3" fill="#2ecc71"/>
+    <text x="678" y="134" fill="#2ecc71" font-size="13" font-weight="700">92</text>
+  </g>
+
+  <!-- Dark horse card (right, 1/3) -->
+  <g transform="translate(846,502)" filter="url(#card-shadow-lg)">
+    <rect width="374" height="158" rx="6" fill="url(#hero-dark)"/>
+    <!-- Red top stripe -->
+    <rect x="0" y="0" width="374" height="3" fill="#e74c3c"/>
+
+    <!-- Eyebrow -->
+    <text x="24" y="28" fill="#e74c3c" font-size="12" font-weight="700" letter-spacing="3">◆ DARK HORSE · 黑馬</text>
+
+    <!-- Big name -->
+    <text x="24" y="76" fill="#ffffff" font-size="42" font-weight="700"
+          font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Sans TC', serif">鶯歌</text>
+    <text x="148" y="76" fill="#4a6fa5" font-size="14" font-weight="600">Yingge</text>
+
+    <!-- Context -->
+    <text x="24" y="102" fill="#ffffff" opacity="0.75" font-size="14">三鶯線通車題材 · 並列性價比黑馬</text>
+
+    <!-- Big delta -->
+    <line x1="24" y1="114" x2="350" y2="114" stroke="#ffffff" stroke-opacity="0.15"/>
+    <text x="24" y="140" fill="#e74c3c" font-size="28" font-weight="700"
+          font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Sans TC', serif">+52%</text>
+    <text x="116" y="140" fill="#ffffff" opacity="0.7" font-size="12">近五年漲幅</text>
+  </g>
+
+  <text x="60" y="694" font-size="12" fill="#8a9ab0" letter-spacing="1">HOMELAB · 雙北 500-1500 萬購屋指南</text>
+  <text x="1220" y="694" text-anchor="end" font-size="12" fill="#8a9ab0" letter-spacing="1">09 / 13</text>
+</svg>

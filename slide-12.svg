@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="'Source Sans 3', Arial, 'PingFang SC', 'Noto Sans SC', 'Microsoft YaHei', sans-serif">
+  <!-- ========================================================= -->
+  <!-- Slide 12 | Editorial Infographic                           -->
+  <!-- Layout: Horizontal Split -> 3-Column cards + Timeline card -->
+  <!-- ========================================================= -->
+
+  <defs>
+    <!-- Elevation filters -->
+    <filter id="shadow-sm" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#1b2838" flood-opacity="0.04"/>
+    </filter>
+    <filter id="shadow-md" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#1b2838" flood-opacity="0.08"/>
+    </filter>
+    <filter id="shadow-lg" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#1b2838" flood-opacity="0.12"/>
+    </filter>
+
+    <!-- Hero gradient for timeline band -->
+    <linearGradient id="hero-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b2838"/>
+      <stop offset="100%" stop-color="#2c3e50"/>
+    </linearGradient>
+
+    <!-- Decorative hairline pattern -->
+    <pattern id="hairline" width="6" height="6" patternUnits="userSpaceOnUse">
+      <path d="M0 6 L6 0" stroke="#ffffff" stroke-width="0.4" opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <!-- ==== Background ==== -->
+  <rect width="1280" height="720" fill="#f8f9fa"/>
+
+  <!-- Decorative top corner flourish -->
+  <g data-decorative="true">
+    <rect x="0" y="0" width="1280" height="4" fill="#1b2838"/>
+    <rect x="0" y="0" width="420" height="4" fill="#e74c3c"/>
+  </g>
+
+  <!-- ==== Header / Masthead ==== -->
+  <g transform="translate(60, 44)">
+    <!-- Eyebrow rule -->
+    <g data-decorative="true">
+      <line x1="0" y1="16" x2="36" y2="16" stroke="#e74c3c" stroke-width="3"/>
+    </g>
+    <text x="48" y="22" font-size="13" font-weight="700" fill="#e74c3c" letter-spacing="3">PART 04 &#183; POLICY TAILWIND</text>
+    <text x="1160" y="22" font-size="12" fill="#6b7a90" text-anchor="end" letter-spacing="2">HOMELAB &#183; 2026 BUYER GUIDE</text>
+
+    <!-- Title (serif) -->
+    <text x="0" y="66" font-family="'DM Serif Display', Georgia, 'PingFang SC', 'Microsoft YaHei', serif"
+          font-size="40" font-weight="700" fill="#1b2838">2026 三大政策利多：青安 &#183; 限貸 &#183; 捷運</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="98" font-size="17" fill="#1b2838" opacity="0.7">把握 7/31 前的低利率與進場時機，鎖定剛需族 2026 抗通膨窗口</text>
+
+    <!-- Divider -->
+    <line x1="0" y1="118" x2="1160" y2="118" stroke="#e9ecef" stroke-width="1"/>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- Three-Column Policy Cards                                  -->
+  <!-- ========================================================= -->
+
+  <!-- =============== CARD 1 / POLICY 1 · 新青安 =============== -->
+  <g transform="translate(60, 192)">
+    <rect width="373" height="242" rx="6" fill="#ffffff" stroke="#e9ecef" stroke-width="1" filter="url(#shadow-md)"/>
+
+    <!-- Index chip + category -->
+    <g transform="translate(24, 24)">
+      <rect width="34" height="34" rx="4" fill="#e74c3c"/>
+      <text x="17" y="24" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif">1</text>
+      <text x="48" y="16" font-size="12" font-weight="700" fill="#6b7a90" letter-spacing="2">POLICY &#183; LOAN</text>
+      <text x="48" y="32" font-size="12" fill="#6b7a90" letter-spacing="1">信用貸款</text>
+    </g>
+
+    <!-- Card title -->
+    <text x="24" y="96" font-family="'DM Serif Display', Georgia, 'PingFang SC', serif"
+          font-size="26" font-weight="700" fill="#1b2838">新青安專案</text>
+
+    <!-- Hairline -->
+    <line x1="24" y1="110" x2="64" y2="110" stroke="#e74c3c" stroke-width="2.5"/>
+
+    <!-- Big number (rate) -->
+    <g transform="translate(24, 158)">
+      <text font-family="'DM Serif Display', Georgia, serif" font-size="56" font-weight="700" fill="#e74c3c">1.775</text>
+      <text x="156" y="-4" font-size="18" font-weight="700" fill="#1b2838" opacity="0.6">%</text>
+      <text x="156" y="16" font-size="12" fill="#6b7a90" letter-spacing="1">OPT. RATE</text>
+    </g>
+
+    <!-- Spec line -->
+    <text x="24" y="190" font-size="14" fill="#1b2838" opacity="0.75">1000 萬 &#183; 40 年 &#183; 5 年寬限期</text>
+
+    <!-- Deadline callout (decorative tint surface) -->
+    <g transform="translate(24, 206)">
+      <g data-decorative="true">
+        <rect width="325" height="24" rx="3" fill="#fdf2f0"/>
+      </g>
+      <circle cx="12" cy="12" r="3" fill="#e74c3c"/>
+      <text x="24" y="16" font-size="12" font-weight="700" fill="#e74c3c" letter-spacing="0.5">2026 / 7 / 31 前最後進場窗口</text>
+    </g>
+  </g>
+
+  <!-- =============== CARD 2 / POLICY 2 · 央行鬆綁 =============== -->
+  <g transform="translate(453, 192)">
+    <rect width="374" height="242" rx="6" fill="#ffffff" stroke="#e9ecef" stroke-width="1" filter="url(#shadow-md)"/>
+
+    <g transform="translate(24, 24)">
+      <rect width="34" height="34" rx="4" fill="#3498db"/>
+      <text x="17" y="24" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif">2</text>
+      <text x="48" y="16" font-size="12" font-weight="700" fill="#6b7a90" letter-spacing="2">POLICY &#183; LTV</text>
+      <text x="48" y="32" font-size="12" fill="#6b7a90" letter-spacing="1">第七波信用管制</text>
+    </g>
+
+    <text x="24" y="96" font-family="'DM Serif Display', Georgia, 'PingFang SC', serif"
+          font-size="26" font-weight="700" fill="#1b2838">央行成數鬆綁</text>
+
+    <line x1="24" y1="110" x2="64" y2="110" stroke="#3498db" stroke-width="2.5"/>
+
+    <!-- Before / After arrow -->
+    <g transform="translate(24, 158)">
+      <!-- Before -->
+      <text font-family="'DM Serif Display', Georgia, serif" font-size="34" font-weight="700" fill="#1b2838" opacity="0.35">50</text>
+      <text x="58" y="0" font-size="14" fill="#6b7a90">%</text>
+      <!-- Arrow -->
+      <path d="M78 -12 L110 -12 L110 -18 L126 -8 L110 2 L110 -4 L78 -4 Z" fill="#2ecc71"/>
+      <!-- After -->
+      <text x="140" y="0" font-family="'DM Serif Display', Georgia, serif" font-size="56" font-weight="700" fill="#3498db">60</text>
+      <text x="238" y="-4" font-size="18" font-weight="700" fill="#1b2838" opacity="0.6">%</text>
+      <text x="238" y="16" font-size="12" fill="#1a8740" font-weight="700" letter-spacing="1">+10 PP</text>
+    </g>
+
+    <text x="24" y="190" font-size="14" fill="#1b2838" opacity="0.75">第 2 戶貸款成數 &#183; 自住換屋受惠</text>
+
+    <g transform="translate(24, 206)">
+      <g data-decorative="true">
+        <rect width="325" height="24" rx="3" fill="#ecf5fb"/>
+      </g>
+      <circle cx="12" cy="12" r="3" fill="#3498db"/>
+      <text x="24" y="16" font-size="12" font-weight="700" fill="#3498db" letter-spacing="0.5">18 個月換屋期 &#183; 2026 / 3 起適用</text>
+    </g>
+  </g>
+
+  <!-- =============== CARD 3 / POLICY 3 · 捷運新線 =============== -->
+  <g transform="translate(847, 192)">
+    <rect width="373" height="242" rx="6" fill="#ffffff" stroke="#e9ecef" stroke-width="1" filter="url(#shadow-md)"/>
+
+    <g transform="translate(24, 24)">
+      <rect width="34" height="34" rx="4" fill="#2ecc71"/>
+      <text x="17" y="24" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif">3</text>
+      <text x="48" y="16" font-size="12" font-weight="700" fill="#6b7a90" letter-spacing="2">POLICY &#183; TRANSIT</text>
+      <text x="48" y="32" font-size="12" fill="#6b7a90" letter-spacing="1">捷運路網擴張</text>
+    </g>
+
+    <text x="24" y="96" font-family="'DM Serif Display', Georgia, 'PingFang SC', serif"
+          font-size="26" font-weight="700" fill="#1b2838">捷運新線通車</text>
+
+    <line x1="24" y1="110" x2="64" y2="110" stroke="#2ecc71" stroke-width="2.5"/>
+
+    <!-- Two mini rail lines -->
+    <g transform="translate(24, 134)">
+      <!-- Row 1: 三鶯線 -->
+      <circle cx="8" cy="8" r="6" fill="#2ecc71"/>
+      <circle cx="8" cy="8" r="2.5" fill="#ffffff"/>
+      <text x="24" y="4" font-size="12" fill="#6b7a90" letter-spacing="1">LINE A</text>
+      <text x="24" y="22" font-family="'DM Serif Display', Georgia, serif" font-size="20" font-weight="700" fill="#1b2838">三鶯線</text>
+      <text x="200" y="22" font-family="'DM Serif Display', Georgia, serif" font-size="22" font-weight="700" fill="#1a8740">2026</text>
+      <text x="268" y="20" font-size="12" fill="#6b7a90">下半年</text>
+
+      <!-- Row 2: 汐東線 -->
+      <circle cx="8" cy="48" r="6" fill="#2ecc71"/>
+      <circle cx="8" cy="48" r="2.5" fill="#ffffff"/>
+      <text x="24" y="44" font-size="12" fill="#6b7a90" letter-spacing="1">LINE B</text>
+      <text x="24" y="62" font-family="'DM Serif Display', Georgia, serif" font-size="20" font-weight="700" fill="#1b2838">汐東線</text>
+      <text x="200" y="62" font-family="'DM Serif Display', Georgia, serif" font-size="22" font-weight="700" fill="#1a8740">2032</text>
+      <text x="268" y="60" font-size="12" fill="#6b7a90">規劃通車</text>
+
+      <!-- Connector -->
+      <line x1="8" y1="16" x2="8" y2="40" stroke="#2ecc71" stroke-width="1.5" stroke-dasharray="2 3"/>
+    </g>
+
+    <g transform="translate(24, 206)">
+      <g data-decorative="true">
+        <rect width="325" height="24" rx="3" fill="#ebf8f1"/>
+      </g>
+      <circle cx="12" cy="12" r="3" fill="#2ecc71"/>
+      <text x="24" y="16" font-size="12" font-weight="700" fill="#1a8740" letter-spacing="0.5">通車前卡位 &#183; 三鶯 / 汐止進場題材</text>
+    </g>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- Timeline Band                                              -->
+  <!-- ========================================================= -->
+  <g transform="translate(60, 460)">
+    <!-- Card background (dark hero style) -->
+    <rect width="1160" height="206" rx="6" fill="url(#hero-bg)" filter="url(#shadow-lg)"/>
+    <g data-decorative="true">
+      <rect width="1160" height="206" rx="6" fill="url(#hairline)"/>
+    </g>
+
+    <!-- Decorative corner marker -->
+    <g data-decorative="true">
+      <rect x="0" y="0" width="4" height="206" fill="#e74c3c"/>
+    </g>
+
+    <!-- Title row -->
+    <g transform="translate(28, 32)">
+      <text font-size="12" font-weight="700" fill="#e74c3c" letter-spacing="3">TIMELINE</text>
+      <text x="96" y="0" font-size="12" fill="#ffffff" opacity="0.4" letter-spacing="2">2026 &#8594; 2032 POLICY &amp; INFRASTRUCTURE ROADMAP</text>
+    </g>
+
+    <text x="28" y="74" font-family="'DM Serif Display', Georgia, 'PingFang SC', serif"
+          font-size="22" font-weight="700" fill="#ffffff">2026 年進場關鍵時間軸</text>
+    <text x="360" y="74" font-size="13" fill="#ffffff" opacity="0.5">平均地權條例自住影響小，打壓投機反使剛需受惠</text>
+
+    <!-- Axis -->
+    <line x1="90" y1="138" x2="1070" y2="138" stroke="#4a6fa5" stroke-width="1.5" opacity="0.55"/>
+
+    <!-- Node 1: 2026/3 -->
+    <g transform="translate(140, 138)">
+      <line x1="0" y1="-18" x2="0" y2="-6" stroke="#4a6fa5" stroke-width="1" opacity="0.45"/>
+      <circle r="8" fill="#3498db"/>
+      <circle r="3" fill="#ffffff"/>
+      <text y="-26" text-anchor="middle" font-family="'DM Serif Display', Georgia, serif" font-size="18" font-weight="700" fill="#ffffff">2026 / 3</text>
+      <text y="30" text-anchor="middle" font-size="12" font-weight="700" fill="#3498db" letter-spacing="1">CENTRAL BANK</text>
+      <text y="48" text-anchor="middle" font-size="13" fill="#ffffff" opacity="0.85">央行鬆綁第 2 戶</text>
+    </g>
+
+    <!-- Node 2: 2026/7/31 (emphasis) -->
+    <g transform="translate(400, 138)">
+      <line x1="0" y1="-18" x2="0" y2="-6" stroke="#4a6fa5" stroke-width="1" opacity="0.45"/>
+      <circle r="12" fill="#e74c3c"/>
+      <circle r="18" fill="none" stroke="#e74c3c" stroke-width="1.5" opacity="0.4"/>
+      <circle r="4" fill="#ffffff"/>
+      <text y="-30" text-anchor="middle" font-family="'DM Serif Display', Georgia, serif" font-size="18" font-weight="700" fill="#e74c3c">2026 / 7 / 31</text>
+      <text y="34" text-anchor="middle" font-size="12" font-weight="700" fill="#e74c3c" letter-spacing="1">DEADLINE</text>
+      <text y="52" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">新青安現行方案落日</text>
+    </g>
+
+    <!-- Node 3: 2026 下半 -->
+    <g transform="translate(660, 138)">
+      <line x1="0" y1="-18" x2="0" y2="-6" stroke="#4a6fa5" stroke-width="1" opacity="0.45"/>
+      <circle r="8" fill="#2ecc71"/>
+      <circle r="3" fill="#ffffff"/>
+      <text y="-26" text-anchor="middle" font-family="'DM Serif Display', Georgia, serif" font-size="18" font-weight="700" fill="#ffffff">2026 H2</text>
+      <text y="30" text-anchor="middle" font-size="12" font-weight="700" fill="#2ecc71" letter-spacing="1">TRANSIT</text>
+      <text y="48" text-anchor="middle" font-size="13" fill="#ffffff" opacity="0.85">三鶯線通車</text>
+    </g>
+
+    <!-- Node 4: 2027+ observation -->
+    <g transform="translate(870, 138)">
+      <line x1="0" y1="-18" x2="0" y2="-6" stroke="#4a6fa5" stroke-width="1" opacity="0.3"/>
+      <circle r="6" fill="#4a6fa5" opacity="0.8"/>
+      <text y="-26" text-anchor="middle" font-family="'DM Serif Display', Georgia, serif" font-size="15" font-weight="700" fill="#ffffff" opacity="0.6">2027&#43;</text>
+      <text y="30" text-anchor="middle" font-size="12" font-weight="700" fill="#4a6fa5" letter-spacing="1">OBSERVATION</text>
+      <text y="46" text-anchor="middle" font-size="12" fill="#ffffff" opacity="0.55">利率走勢觀察期</text>
+    </g>
+
+    <!-- Node 5: 2032 -->
+    <g transform="translate(1020, 138)">
+      <line x1="0" y1="-18" x2="0" y2="-6" stroke="#4a6fa5" stroke-width="1" opacity="0.45"/>
+      <circle r="8" fill="#2ecc71"/>
+      <circle r="3" fill="#ffffff"/>
+      <text y="-26" text-anchor="middle" font-family="'DM Serif Display', Georgia, serif" font-size="18" font-weight="700" fill="#ffffff">2032</text>
+      <text y="30" text-anchor="middle" font-size="12" font-weight="700" fill="#2ecc71" letter-spacing="1">TRANSIT</text>
+      <text y="48" text-anchor="middle" font-size="13" fill="#ffffff" opacity="0.85">汐東線通車</text>
+    </g>
+
+    <!-- Highlight band under deadline -->
+    <g data-decorative="true">
+      <rect x="368" y="178" width="64" height="2" fill="#e74c3c"/>
+    </g>
+  </g>
+
+  <text x="60" y="694" font-size="12" fill="#8a9ab0" letter-spacing="1">HOMELAB · 雙北 500-1500 萬購屋指南</text>
+  <text x="1220" y="694" text-anchor="end" font-size="12" fill="#8a9ab0" letter-spacing="1">12 / 13</text>
+</svg>

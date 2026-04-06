@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="'Source Sans 3', Arial, 'PingFang TC', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif">
+  <!-- ============ DEFS ============ -->
+  <defs>
+    <filter id="shadow-md" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#1b2838" flood-opacity="0.10"/>
+    </filter>
+    <filter id="shadow-lg" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#1b2838" flood-opacity="0.18"/>
+    </filter>
+    <linearGradient id="hero-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b2838"/>
+      <stop offset="100%" stop-color="#2c3e50"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ============ BACKGROUND ============ -->
+  <rect width="1280" height="720" fill="#f8f9fa"/>
+
+  <!-- Decorative editorial grid lines (Zone 3) -->
+  <g data-decorative="true">
+    <line x1="60" y1="200" x2="1220" y2="200" stroke="#e9ecef" stroke-width="1"/>
+    <line x1="60" y1="672" x2="1220" y2="672" stroke="#e9ecef" stroke-width="1"/>
+  </g>
+
+  <!-- ============ HEADER ============ -->
+  <g>
+    <text x="60" y="82" fill="#e74c3c" font-size="12" font-weight="700" letter-spacing="4">PART 1  ·  TAIPEI CITY PRICE MAP</text>
+    <text x="60" y="132" fill="#1b2838" font-size="40" font-weight="700" font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Sans TC', serif">台北市 12 區房價地圖</text>
+    <text x="60" y="166" fill="#4a6fa5" font-size="17" font-weight="400">均坪單價與 1500 萬可購坪數對照  ·  蛋黃蛋白三層分級</text>
+    <rect x="60" y="182" width="64" height="3" fill="#e74c3c"/>
+  </g>
+
+  <!-- Page number / brand mark -->
+  <text x="1220" y="82" text-anchor="end" fill="#4a6fa5" font-size="12" font-weight="600" letter-spacing="2">HOMELAB  ·  04 / 13</text>
+
+  <!-- ============ HERO CARD (LEFT) — 蛋白三區 callout ============ -->
+  <g transform="translate(60,215)">
+    <rect width="400" height="430" rx="6" fill="url(#hero-bg)" filter="url(#shadow-lg)"/>
+
+    <!-- top label -->
+    <text x="28" y="46" fill="#e74c3c" font-size="12" font-weight="700" letter-spacing="3">HIGHLIGHT  ·  CP VALUE ZONE</text>
+
+    <!-- Big headline -->
+    <text x="28" y="98" fill="#ffffff" font-size="34" font-weight="700" font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Sans TC', serif">蛋白三區</text>
+    <text x="28" y="134" fill="#ffffff" font-size="24" font-weight="400" font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Sans TC', serif">＝ 坪效最高解</text>
+
+    <!-- accent underline -->
+    <rect x="28" y="150" width="120" height="2" fill="#e74c3c"/>
+
+    <!-- District list -->
+    <g transform="translate(28, 184)">
+      <text x="0" y="0" fill="#e9ecef" font-size="12" font-weight="600" letter-spacing="2" opacity="0.7">THREE DISTRICTS</text>
+
+      <!-- District 1 -->
+      <g transform="translate(0, 26)">
+        <circle cx="8" cy="10" r="4" fill="#e74c3c"/>
+        <text x="24" y="14" fill="#ffffff" font-size="16" font-weight="700">文山</text>
+        <text x="76" y="14" fill="#e9ecef" font-size="14" opacity="0.8">均價 53 萬/坪</text>
+      </g>
+      <!-- District 2 -->
+      <g transform="translate(0, 56)">
+        <circle cx="8" cy="10" r="4" fill="#e74c3c"/>
+        <text x="24" y="14" fill="#ffffff" font-size="16" font-weight="700">萬華</text>
+        <text x="76" y="14" fill="#e9ecef" font-size="14" opacity="0.8">均價 56 萬/坪</text>
+      </g>
+      <!-- District 3 -->
+      <g transform="translate(0, 86)">
+        <circle cx="8" cy="10" r="4" fill="#e74c3c"/>
+        <text x="24" y="14" fill="#ffffff" font-size="16" font-weight="700">北投</text>
+        <text x="76" y="14" fill="#e9ecef" font-size="14" opacity="0.8">均價 58 萬/坪</text>
+      </g>
+    </g>
+
+    <!-- Big number: 1500萬可購坪數 -->
+    <g transform="translate(28, 318)">
+      <text x="0" y="0" fill="#e9ecef" font-size="12" font-weight="600" letter-spacing="2" opacity="0.7">1500 萬可購坪數</text>
+      <text x="0" y="56" fill="#e74c3c" font-size="60" font-weight="700" font-family="'DM Serif Display', Georgia, serif">24–28</text>
+      <text x="208" y="56" fill="#ffffff" font-size="20" font-weight="400">坪</text>
+    </g>
+
+    <!-- Footer stats -->
+    <line x1="28" y1="394" x2="372" y2="394" stroke="#4a6fa5" stroke-width="1" opacity="0.5"/>
+    <text x="28" y="414" fill="#e9ecef" font-size="12" opacity="0.75">台北市屋齡中位數 35.5 年  ·  中山 1500 萬內交易 543 件/年</text>
+  </g>
+
+  <!-- ============ TABLE CARD (RIGHT) ============ -->
+  <g transform="translate(480,215)">
+    <rect width="740" height="430" rx="6" fill="#ffffff" stroke="#e9ecef" stroke-width="1" filter="url(#shadow-md)"/>
+
+    <!-- Card header -->
+    <text x="28" y="44" fill="#1b2838" font-size="19" font-weight="700" font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Sans TC', serif">台北 7 代表區 × 1500 萬可購坪數</text>
+    <text x="28" y="66" fill="#4a6fa5" font-size="12" font-weight="400">蛋黃區 ─ 中間區 ─ 蛋白區  三層分級對照</text>
+
+    <!-- Header row background -->
+    <rect x="28" y="84" width="684" height="34" rx="4" fill="#1b2838"/>
+    <text x="44" y="106" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="1">行政區</text>
+    <text x="200" y="106" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="1">均價 (萬/坪)</text>
+    <text x="360" y="106" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="1">1500萬可購 (坪)</text>
+    <text x="540" y="106" fill="#ffffff" font-size="12" font-weight="700" letter-spacing="1">物件類型</text>
+
+    <!-- ZONE 1: 蛋黃核心 (信義/大安/中山) -->
+    <g>
+      <rect x="28" y="130" width="684" height="42" fill="#f8f9fa"/>
+      <rect x="28" y="130" width="4" height="42" fill="#4a6fa5"/>
+      <text x="44" y="156" fill="#1b2838" font-size="15" font-weight="700">信義</text>
+      <text x="200" y="156" fill="#1b2838" font-size="15" font-weight="400">136</text>
+      <text x="360" y="156" fill="#1b2838" font-size="15" font-weight="400">11</text>
+      <text x="540" y="156" fill="#4a6fa5" font-size="13">小坪套房</text>
+
+      <rect x="28" y="172" width="4" height="42" fill="#4a6fa5"/>
+      <text x="44" y="198" fill="#1b2838" font-size="15" font-weight="700">大安</text>
+      <text x="200" y="198" fill="#1b2838" font-size="15" font-weight="400">132</text>
+      <text x="360" y="198" fill="#1b2838" font-size="15" font-weight="400">11.4</text>
+      <text x="540" y="198" fill="#4a6fa5" font-size="13">老公寓 / 小宅</text>
+
+      <rect x="28" y="214" width="684" height="42" fill="#f8f9fa"/>
+      <rect x="28" y="214" width="4" height="42" fill="#4a6fa5"/>
+      <text x="44" y="240" fill="#1b2838" font-size="15" font-weight="700">中山</text>
+      <text x="200" y="240" fill="#1b2838" font-size="15" font-weight="400">119</text>
+      <text x="360" y="240" fill="#1b2838" font-size="15" font-weight="400">12.6</text>
+      <text x="540" y="240" fill="#4a6fa5" font-size="13">電梯套房</text>
+    </g>
+
+    <!-- 中間層 士林 -->
+    <g>
+      <rect x="28" y="256" width="4" height="42" fill="#4a6fa5" opacity="0.5"/>
+      <text x="44" y="282" fill="#1b2838" font-size="15" font-weight="700">士林</text>
+      <text x="200" y="282" fill="#1b2838" font-size="15" font-weight="400">80</text>
+      <text x="360" y="282" fill="#1b2838" font-size="15" font-weight="400">18–20</text>
+      <text x="540" y="282" fill="#4a6fa5" font-size="13">公寓 / 華廈</text>
+    </g>
+
+    <!-- ZONE 3: 蛋白三區 (文山/萬華/北投) — highlighted rows -->
+    <g>
+      <rect x="28" y="298" width="684" height="42" fill="#e74c3c" fill-opacity="0.06"/>
+      <rect x="28" y="298" width="4" height="42" fill="#e74c3c"/>
+      <text x="44" y="324" fill="#e74c3c" font-size="15" font-weight="700">文山</text>
+      <text x="200" y="324" fill="#e74c3c" font-size="15" font-weight="700">53</text>
+      <text x="360" y="324" fill="#e74c3c" font-size="15" font-weight="700">26–28</text>
+      <text x="540" y="324" fill="#e74c3c" font-size="13" font-weight="600">2 房中古</text>
+
+      <rect x="28" y="340" width="4" height="42" fill="#e74c3c"/>
+      <text x="44" y="366" fill="#e74c3c" font-size="15" font-weight="700">萬華</text>
+      <text x="200" y="366" fill="#e74c3c" font-size="15" font-weight="700">56</text>
+      <text x="360" y="366" fill="#e74c3c" font-size="15" font-weight="700">20–25</text>
+      <text x="540" y="366" fill="#e74c3c" font-size="13" font-weight="600">老公寓</text>
+
+      <rect x="28" y="382" width="684" height="42" fill="#e74c3c" fill-opacity="0.06"/>
+      <rect x="28" y="382" width="4" height="42" fill="#e74c3c"/>
+      <text x="44" y="408" fill="#e74c3c" font-size="15" font-weight="700">北投</text>
+      <text x="200" y="408" fill="#e74c3c" font-size="15" font-weight="700">58</text>
+      <text x="360" y="408" fill="#e74c3c" font-size="15" font-weight="700">24–26</text>
+      <text x="540" y="408" fill="#e74c3c" font-size="13" font-weight="600">2–3 房</text>
+    </g>
+  </g>
+
+  <text x="60" y="694" font-size="12" fill="#8a9ab0" letter-spacing="1">HOMELAB · 雙北 500-1500 萬購屋指南</text>
+  <text x="1220" y="694" text-anchor="end" font-size="12" fill="#8a9ab0" letter-spacing="1">04 / 13</text>
+</svg>

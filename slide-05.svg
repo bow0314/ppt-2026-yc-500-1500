@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="'Source Sans 3', Arial, 'PingFang TC', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif">
+  <!-- ============ DEFS ============ -->
+  <defs>
+    <!-- Background paper -->
+    <linearGradient id="paperBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbfcfd"/>
+      <stop offset="100%" stop-color="#f1f3f6"/>
+    </linearGradient>
+
+    <!-- Hero navy gradient -->
+    <linearGradient id="heroNavy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22344a"/>
+      <stop offset="100%" stop-color="#14202f"/>
+    </linearGradient>
+
+    <!-- Thin editorial grid pattern -->
+    <pattern id="editorialGrid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1b2838" stroke-width="0.5" stroke-opacity="0.04"/>
+    </pattern>
+
+    <!-- Card shadows -->
+    <filter id="shadowSm" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0f1c2c" flood-opacity="0.08"/>
+    </filter>
+    <filter id="shadowMd" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="8" flood-color="#0f1c2c" flood-opacity="0.12"/>
+    </filter>
+    <filter id="shadowLg" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="22" flood-color="#0f1c2c" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- ============ BACKGROUND ============ -->
+  <rect width="1280" height="720" fill="url(#paperBg)"/>
+  <rect width="1280" height="720" fill="url(#editorialGrid)"/>
+
+  <!-- Decorative editorial marks -->
+  <g data-decorative="true">
+    <rect x="0" y="0" width="6" height="720" fill="#1b2838"/>
+    <rect x="1274" y="0" width="6" height="720" fill="#e74c3c"/>
+    <circle cx="1170" cy="70" r="110" fill="#e74c3c" fill-opacity="0.04"/>
+    <circle cx="110" cy="670" r="90" fill="#4a6fa5" fill-opacity="0.05"/>
+    <text x="1210" y="178" font-family="'DM Serif Display', Georgia, serif" font-size="130" font-weight="400" fill="#1b2838" fill-opacity="0.05" text-anchor="end">05</text>
+  </g>
+
+  <!-- ============ HEADER ============ -->
+  <g transform="translate(60,48)">
+    <rect width="8" height="28" fill="#e74c3c"/>
+    <text x="22" y="13" font-size="12" font-weight="700" fill="#4a6fa5" letter-spacing="2.4">HOMELAB  ·  EDITORIAL  ·  2026</text>
+    <text x="22" y="28" font-size="12" font-weight="600" fill="#6b7a90" letter-spacing="1.6">PART 01  /  TAIPEI BUDGET MATRIX</text>
+  </g>
+
+  <!-- Section number -->
+  <g transform="translate(1150,48)">
+    <text x="70" y="16" text-anchor="end" font-size="12" font-weight="700" fill="#6b7a90" letter-spacing="1.8">SECTION</text>
+    <text x="70" y="40" text-anchor="end" font-family="'DM Serif Display', Georgia, 'PingFang TC', serif" font-size="26" font-weight="700" fill="#1b2838">05 / 13</text>
+  </g>
+
+  <!-- Divider rule -->
+  <line x1="60" y1="96" x2="1220" y2="96" stroke="#1b2838" stroke-width="1" stroke-opacity="0.15"/>
+
+  <!-- Main title -->
+  <text x="60" y="148" font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Sans TC', serif" font-size="42" font-weight="700" fill="#1b2838">台北市 500–1500 萬實戰物件</text>
+  <text x="60" y="180" font-size="17" font-weight="400" fill="#4a6fa5">三個預算段 × 三種族群的對應區域　·　Budget × Persona Matrix</text>
+
+  <!-- Accent underline -->
+  <rect x="60" y="196" width="52" height="3" fill="#e74c3c"/>
+  <rect x="116" y="196" width="18" height="3" fill="#1b2838" fill-opacity="0.3"/>
+
+  <!-- ============ TOP METRIC STRIP ============ -->
+  <g transform="translate(60,222)">
+    <!-- Metric 1 : 萬華 <1000萬 占比 -->
+    <g transform="translate(0,0)" filter="url(#shadowSm)">
+      <rect width="386" height="82" rx="6" fill="#ffffff" stroke="#e9ecef" stroke-width="1"/>
+      <rect x="0" y="0" width="4" height="82" fill="#1b2838"/>
+      <text x="22" y="26" font-size="12" font-weight="700" fill="#6b7a90" letter-spacing="1.6">WANHUA  萬華 &lt;1000 萬占比</text>
+      <text x="22" y="66" font-family="'DM Serif Display', Georgia, serif" font-size="42" font-weight="700" fill="#1b2838">28.9</text>
+      <text x="142" y="66" font-size="14" fill="#6b7a90">%</text>
+      <g transform="translate(278,28)">
+        <rect width="90" height="22" rx="3" fill="#1b2838" fill-opacity="0.08"/>
+        <text x="45" y="15" text-anchor="middle" font-size="12" font-weight="700" fill="#1b2838" letter-spacing="0.6">全市最高</text>
+      </g>
+    </g>
+
+    <!-- Metric 2 : 中山 <500萬 交易件數 -->
+    <g transform="translate(406,0)" filter="url(#shadowSm)">
+      <rect width="386" height="82" rx="6" fill="#ffffff" stroke="#e9ecef" stroke-width="1"/>
+      <rect x="0" y="0" width="4" height="82" fill="#4a6fa5"/>
+      <text x="22" y="26" font-size="12" font-weight="700" fill="#6b7a90" letter-spacing="1.6">ZHONGSHAN  中山 &lt;500 萬交易</text>
+      <text x="22" y="66" font-family="'DM Serif Display', Georgia, serif" font-size="42" font-weight="700" fill="#1b2838">87</text>
+      <text x="92" y="66" font-size="14" fill="#6b7a90">件</text>
+      <g transform="translate(278,28)">
+        <rect width="90" height="22" rx="3" fill="#4a6fa5" fill-opacity="0.14"/>
+        <text x="45" y="15" text-anchor="middle" font-size="12" font-weight="700" fill="#2c4a7a" letter-spacing="0.6">全市第一</text>
+      </g>
+    </g>
+
+    <!-- Metric 3 : 北投 1000 萬可購坪數 -->
+    <g transform="translate(812,0)" filter="url(#shadowSm)">
+      <rect width="348" height="82" rx="6" fill="#ffffff" stroke="#e9ecef" stroke-width="1"/>
+      <rect x="0" y="0" width="4" height="82" fill="#e74c3c"/>
+      <text x="22" y="26" font-size="12" font-weight="700" fill="#6b7a90" letter-spacing="1.6">BEITOU  北投 1000 萬可購</text>
+      <text x="22" y="66" font-family="'DM Serif Display', Georgia, serif" font-size="42" font-weight="700" fill="#e74c3c">17</text>
+      <text x="88" y="66" font-size="14" fill="#6b7a90">坪</text>
+      <g transform="translate(244,28)">
+        <rect width="90" height="22" rx="3" fill="#e74c3c" fill-opacity="0.12"/>
+        <text x="45" y="15" text-anchor="middle" font-size="12" font-weight="700" fill="#c0392b" letter-spacing="0.6">坪效最佳</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ============ BUDGET × PERSONA MATRIX LABEL ============ -->
+  <g transform="translate(60,328)">
+    <text x="0" y="12" font-size="12" font-weight="700" fill="#6b7a90" letter-spacing="2">THE MATRIX  ·  三段預算對應區域</text>
+    <line x1="266" y1="8" x2="1160" y2="8" stroke="#1b2838" stroke-width="0.5" stroke-opacity="0.15"/>
+  </g>
+
+  <!-- ============ THREE BUDGET CARDS ============ -->
+
+  <!-- CARD A : 500-800 萬 (light, steel-blue accent) -->
+  <g transform="translate(60,352)" filter="url(#shadowMd)">
+    <rect width="386" height="296" rx="6" fill="#ffffff" stroke="#e9ecef" stroke-width="1"/>
+    <rect x="0" y="0" width="386" height="6" fill="#4a6fa5"/>
+
+    <!-- Chapter numeral (decorative) -->
+    <text x="362" y="72" text-anchor="end" font-family="'DM Serif Display', Georgia, serif" font-size="72" font-weight="700" fill="#1b2838" fill-opacity="0.06">A</text>
+
+    <!-- Budget label -->
+    <text x="24" y="46" font-size="12" font-weight="700" fill="#4a6fa5" letter-spacing="2.4">BUDGET A  ·  入門首購</text>
+    <text x="24" y="92" font-family="'DM Serif Display', Georgia, 'PingFang TC', serif" font-size="34" font-weight="700" fill="#1b2838">500–800 萬</text>
+    <text x="24" y="118" font-size="14" fill="#6b7a90">單身 · 首購 · 通勤便利為先</text>
+
+    <!-- Divider -->
+    <line x1="24" y1="138" x2="362" y2="138" stroke="#e9ecef" stroke-width="1"/>
+
+    <!-- 代表區域 -->
+    <text x="24" y="164" font-size="12" font-weight="700" fill="#8a95a8" letter-spacing="1.4">DISTRICTS  代表區域</text>
+    <text x="24" y="192" font-family="'DM Serif Display', Georgia, 'PingFang TC', serif" font-size="22" font-weight="700" fill="#1b2838">中山 · 萬華 · 北投</text>
+
+    <!-- 規格 -->
+    <text x="24" y="224" font-size="12" font-weight="700" fill="#8a95a8" letter-spacing="1.4">SPEC  典型規格</text>
+    <text x="24" y="248" font-size="15" font-weight="600" fill="#1b2838">8–12 坪　老屋套房為主</text>
+
+    <!-- Footer stat -->
+    <line x1="24" y1="264" x2="362" y2="264" stroke="#e9ecef" stroke-width="1"/>
+    <text x="24" y="284" font-size="12" font-weight="700" fill="#6b7a90" letter-spacing="1.2">HIGHLIGHT</text>
+    <text x="362" y="284" text-anchor="end" font-family="'DM Serif Display', Georgia, serif" font-size="15" font-weight="700" fill="#e74c3c">中山 &lt;500 萬 87 件</text>
+  </g>
+
+  <!-- CARD B : 800-1200 萬 (light, red accent — the sweet spot) -->
+  <g transform="translate(466,352)" filter="url(#shadowMd)">
+    <rect width="386" height="296" rx="6" fill="#ffffff" stroke="#e9ecef" stroke-width="1"/>
+    <rect x="0" y="0" width="386" height="6" fill="#e74c3c"/>
+
+    <!-- Sweet spot badge -->
+    <g transform="translate(278,20)">
+      <rect width="102" height="22" rx="3" fill="#e74c3c"/>
+      <text x="51" y="15" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="0.8">SWEET SPOT</text>
+    </g>
+
+    <!-- Chapter numeral (decorative) -->
+    <text x="288" y="72" text-anchor="end" font-family="'DM Serif Display', Georgia, serif" font-size="72" font-weight="700" fill="#1b2838" fill-opacity="0.06">B</text>
+
+    <text x="24" y="46" font-size="12" font-weight="700" fill="#e74c3c" letter-spacing="2.4">BUDGET B  ·  小家庭首購</text>
+    <text x="24" y="92" font-family="'DM Serif Display', Georgia, 'PingFang TC', serif" font-size="34" font-weight="700" fill="#1b2838">800–1200 萬</text>
+    <text x="24" y="118" font-size="14" fill="#6b7a90">新婚 · 小家庭 · 生活機能為主</text>
+
+    <line x1="24" y1="138" x2="362" y2="138" stroke="#e9ecef" stroke-width="1"/>
+
+    <text x="24" y="164" font-size="12" font-weight="700" fill="#8a95a8" letter-spacing="1.4">DISTRICTS  代表區域</text>
+    <text x="24" y="192" font-family="'DM Serif Display', Georgia, 'PingFang TC', serif" font-size="22" font-weight="700" fill="#1b2838">北投 · 文山</text>
+
+    <text x="24" y="224" font-size="12" font-weight="700" fill="#8a95a8" letter-spacing="1.4">SPEC  典型規格</text>
+    <text x="24" y="248" font-size="15" font-weight="600" fill="#1b2838">1–2 房 12–18 坪　電梯華廈</text>
+
+    <line x1="24" y1="264" x2="362" y2="264" stroke="#e9ecef" stroke-width="1"/>
+    <text x="24" y="284" font-size="12" font-weight="700" fill="#6b7a90" letter-spacing="1.2">HIGHLIGHT</text>
+    <text x="362" y="284" text-anchor="end" font-family="'DM Serif Display', Georgia, serif" font-size="15" font-weight="700" fill="#e74c3c">北投 1000 萬 = 17 坪</text>
+  </g>
+
+  <!-- CARD C : 1200-1500 萬 (dark navy hero — upgrade tier) -->
+  <g transform="translate(872,352)" filter="url(#shadowLg)">
+    <rect width="348" height="296" rx="6" fill="url(#heroNavy)"/>
+
+    <!-- Chapter numeral (decorative) -->
+    <text x="326" y="72" text-anchor="end" font-family="'DM Serif Display', Georgia, serif" font-size="72" font-weight="700" fill="#ffffff" fill-opacity="0.09">C</text>
+
+    <rect x="24" y="32" width="40" height="3" fill="#f39c12"/>
+    <text x="24" y="58" font-size="12" font-weight="700" fill="#f39c12" letter-spacing="2.4">BUDGET C  ·  換屋族</text>
+    <text x="24" y="104" font-family="'DM Serif Display', Georgia, 'PingFang TC', serif" font-size="34" font-weight="700" fill="#ffffff">1200–1500 萬</text>
+    <text x="24" y="128" font-size="14" fill="#ffffff" fill-opacity="0.65">二次購屋 · 雙薪家庭 · 品質升級</text>
+
+    <line x1="24" y1="148" x2="324" y2="148" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+
+    <text x="24" y="174" font-size="12" font-weight="700" fill="#8a9cb3" letter-spacing="1.4">OPTIONS  雙軸選擇</text>
+
+    <!-- Two sub-options -->
+    <g transform="translate(24,190)">
+      <circle cx="6" cy="8" r="3" fill="#f39c12"/>
+      <text x="18" y="12" font-size="13" font-weight="700" fill="#ffffff">蛋黃小宅</text>
+      <text x="86" y="12" font-size="13" fill="#c7d3e2">10–14 坪電梯</text>
+    </g>
+    <g transform="translate(24,216)">
+      <circle cx="6" cy="8" r="3" fill="#f39c12"/>
+      <text x="18" y="12" font-size="13" font-weight="700" fill="#ffffff">蛋白 2 房</text>
+      <text x="86" y="12" font-size="13" fill="#c7d3e2">20 坪以上寬敞</text>
+    </g>
+
+    <line x1="24" y1="252" x2="324" y2="252" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+    <text x="24" y="276" font-size="12" font-weight="700" fill="#8a9cb3" letter-spacing="1.2">HIGHLIGHT</text>
+    <text x="324" y="276" text-anchor="end" font-family="'DM Serif Display', Georgia, serif" font-size="15" font-weight="700" fill="#f39c12">萬華 &lt;1000 萬 28.9%</text>
+  </g>
+
+  <text x="60" y="694" font-size="12" fill="#8a9ab0" letter-spacing="1">HOMELAB · 雙北 500-1500 萬購屋指南</text>
+  <text x="1220" y="694" text-anchor="end" font-size="12" fill="#8a9ab0" letter-spacing="1">05 / 13</text>
+</svg>

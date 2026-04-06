@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="'Source Sans 3', Arial, 'PingFang TC', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif">
+  <!-- ============ DEFS ============ -->
+  <defs>
+    <!-- Background paper -->
+    <linearGradient id="paperBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbfcfd"/>
+      <stop offset="100%" stop-color="#f1f3f6"/>
+    </linearGradient>
+
+    <!-- Hero navy gradient for Part cards -->
+    <linearGradient id="heroNavy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22344a"/>
+      <stop offset="100%" stop-color="#14202f"/>
+    </linearGradient>
+
+    <!-- Accent red gradient -->
+    <linearGradient id="accentRed" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e74c3c"/>
+      <stop offset="100%" stop-color="#c0392b"/>
+    </linearGradient>
+
+    <!-- Card shadows -->
+    <filter id="shadowSm" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0f1c2c" flood-opacity="0.08"/>
+    </filter>
+    <filter id="shadowMd" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="8" flood-color="#0f1c2c" flood-opacity="0.12"/>
+    </filter>
+    <filter id="shadowLg" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="22" flood-color="#0f1c2c" flood-opacity="0.18"/>
+    </filter>
+
+    <!-- Thin grid pattern for editorial feel -->
+    <pattern id="editorialGrid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1b2838" stroke-width="0.5" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <!-- ============ BACKGROUND ============ -->
+  <rect width="1280" height="720" fill="url(#paperBg)"/>
+  <rect width="1280" height="720" fill="url(#editorialGrid)"/>
+
+  <!-- Decorative side rules -->
+  <g data-decorative="true">
+    <rect x="0" y="0" width="6" height="720" fill="#1b2838"/>
+    <rect x="1274" y="0" width="6" height="720" fill="#e74c3c"/>
+    <circle cx="1180" cy="60" r="120" fill="#e74c3c" fill-opacity="0.04"/>
+    <circle cx="90" cy="680" r="90" fill="#4a6fa5" fill-opacity="0.05"/>
+  </g>
+
+  <!-- ============ HEADER ============ -->
+  <!-- Editorial ribbon -->
+  <g transform="translate(60,48)">
+    <rect width="8" height="28" fill="#e74c3c"/>
+    <text x="22" y="13" font-size="12" font-weight="700" fill="#4a6fa5" letter-spacing="2.4">HOMELAB  ·  EDITORIAL  ·  2026</text>
+    <text x="22" y="28" font-size="12" font-weight="600" fill="#6b7a90" letter-spacing="1.6">CORE THESIS  /  KEY TAKEAWAY</text>
+  </g>
+
+  <!-- Section number -->
+  <g transform="translate(1150,48)">
+    <text x="70" y="16" text-anchor="end" font-size="12" font-weight="700" fill="#6b7a90" letter-spacing="1.8">SECTION</text>
+    <text x="70" y="40" text-anchor="end" font-family="'DM Serif Display', Georgia, 'PingFang TC', serif" font-size="26" font-weight="700" fill="#1b2838">02 / 13</text>
+  </g>
+
+  <!-- Divider rule -->
+  <line x1="60" y1="96" x2="1220" y2="96" stroke="#1b2838" stroke-width="1" stroke-opacity="0.15"/>
+
+  <!-- Main title -->
+  <text x="60" y="148" font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Sans TC', serif" font-size="42" font-weight="700" fill="#1b2838">核心結論：雙北買房三大命題</text>
+  <text x="60" y="180" font-size="17" font-weight="400" fill="#4a6fa5">一頁看懂本次分析的 Pyramid 結構　·　結論先行　·　數據佐證</text>
+
+  <!-- Accent underline -->
+  <rect x="60" y="196" width="52" height="3" fill="#e74c3c"/>
+  <rect x="116" y="196" width="18" height="3" fill="#1b2838" fill-opacity="0.3"/>
+
+  <!-- ============ TOP METRIC STRIP ============ -->
+  <g transform="translate(60,222)">
+    <!-- Metric 1 : 台北市均價 -->
+    <g transform="translate(0,0)" filter="url(#shadowSm)">
+      <rect width="386" height="96" rx="6" fill="#ffffff" stroke="#e9ecef" stroke-width="1"/>
+      <rect x="0" y="0" width="4" height="96" fill="#1b2838"/>
+      <text x="22" y="28" font-size="12" font-weight="700" fill="#6b7a90" letter-spacing="1.6">TAIPEI 台北市均價</text>
+      <text x="22" y="66" font-family="'DM Serif Display', Georgia, serif" font-size="40" font-weight="700" fill="#1b2838">104</text>
+      <text x="138" y="66" font-size="13" fill="#6b7a90">萬 / 坪</text>
+      <g transform="translate(290,34)">
+        <rect width="78" height="24" rx="3" fill="#1b2838" fill-opacity="0.08"/>
+        <text x="39" y="16" text-anchor="middle" font-size="12" font-weight="700" fill="#1b2838" letter-spacing="0.8">抗  跌</text>
+      </g>
+      <text x="22" y="90" font-size="12" fill="#8a95a8">累計跌幅僅 5.4%（七都最小）</text>
+    </g>
+
+    <!-- Metric 2 : 新北市均價 -->
+    <g transform="translate(406,0)" filter="url(#shadowSm)">
+      <rect width="386" height="96" rx="6" fill="#ffffff" stroke="#e9ecef" stroke-width="1"/>
+      <rect x="0" y="0" width="4" height="96" fill="#4a6fa5"/>
+      <text x="22" y="28" font-size="12" font-weight="700" fill="#6b7a90" letter-spacing="1.6">NEW TAIPEI 新北市均價</text>
+      <text x="22" y="66" font-family="'DM Serif Display', Georgia, serif" font-size="40" font-weight="700" fill="#1b2838">58</text>
+      <text x="100" y="66" font-size="13" fill="#6b7a90">萬 / 坪</text>
+      <g transform="translate(290,34)">
+        <rect width="78" height="24" rx="3" fill="#2ecc71" fill-opacity="0.14"/>
+        <text x="39" y="16" text-anchor="middle" font-size="12" font-weight="700" fill="#1b7a42" letter-spacing="0.4">▲ +4.88%</text>
+      </g>
+      <text x="22" y="90" font-size="12" fill="#8a95a8">500-1500 萬購屋主戰場</text>
+    </g>
+
+    <!-- Metric 3 : 議價空間 -->
+    <g transform="translate(812,0)" filter="url(#shadowSm)">
+      <rect width="388" height="96" rx="6" fill="#ffffff" stroke="#e9ecef" stroke-width="1"/>
+      <rect x="0" y="0" width="4" height="96" fill="#e74c3c"/>
+      <text x="22" y="28" font-size="12" font-weight="700" fill="#6b7a90" letter-spacing="1.6">BARGAIN ROOM 議價空間</text>
+      <text x="22" y="66" font-family="'DM Serif Display', Georgia, serif" font-size="40" font-weight="700" fill="#e74c3c">12.8</text>
+      <text x="148" y="66" font-size="13" fill="#6b7a90">%</text>
+      <g transform="translate(270,34)">
+        <rect width="98" height="24" rx="3" fill="#e74c3c" fill-opacity="0.12"/>
+        <text x="49" y="16" text-anchor="middle" font-size="12" font-weight="700" fill="#c0392b" letter-spacing="0.6">七  都  之  最</text>
+      </g>
+      <text x="22" y="90" font-size="12" fill="#8a95a8">買方談判力擴大（台北 12.8% / 新北 11.5%）</text>
+    </g>
+  </g>
+
+  <!-- ============ THREE PART CARDS ============ -->
+  <!-- Part label band -->
+  <g transform="translate(60,334)">
+    <text x="0" y="12" font-size="12" font-weight="700" fill="#6b7a90" letter-spacing="2">THE PYRAMID  ·  三大命題</text>
+    <line x1="220" y1="8" x2="1160" y2="8" stroke="#1b2838" stroke-width="0.5" stroke-opacity="0.15"/>
+  </g>
+
+  <!-- PART 1 Card -->
+  <g transform="translate(60,356)" filter="url(#shadowLg)">
+    <rect width="386" height="296" rx="6" fill="url(#heroNavy)"/>
+    <!-- Numeric chapter -->
+    <text x="24" y="70" font-family="'DM Serif Display', Georgia, serif" font-size="72" font-weight="700" fill="#ffffff" fill-opacity="0.09">01</text>
+    <rect x="24" y="32" width="40" height="3" fill="#e74c3c"/>
+    <text x="24" y="58" font-size="12" font-weight="700" fill="#e74c3c" letter-spacing="2.4">PART 01  ·  TAIPEI</text>
+
+    <!-- Heading -->
+    <text x="24" y="118" font-family="'DM Serif Display', Georgia, 'PingFang TC', serif" font-size="26" font-weight="700" fill="#ffffff">台北市性價比三區</text>
+    <text x="24" y="148" font-size="20" font-weight="600" fill="#ffffff" fill-opacity="0.85">北投 · 文山 · 萬華</text>
+
+    <!-- Divider -->
+    <line x1="24" y1="168" x2="362" y2="168" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+
+    <!-- Bullets -->
+    <text x="24" y="196" font-size="13" fill="#c7d3e2">
+      <tspan x="24" dy="0">•  蛋白三強 ｜ 坪效最佳、老屋機能熟</tspan>
+      <tspan x="24" dy="22">•  1500 萬可買 24-28 坪 2 房中古</tspan>
+      <tspan x="24" dy="22">•  文山 53 · 萬華 56 · 北投 58 萬/坪</tspan>
+    </text>
+
+    <!-- Footer stat -->
+    <line x1="24" y1="254" x2="362" y2="254" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+    <text x="24" y="278" font-size="12" font-weight="700" fill="#8a9cb3" letter-spacing="1.4">CHEAPEST 最低均價</text>
+    <text x="362" y="278" text-anchor="end" font-family="'DM Serif Display', Georgia, serif" font-size="20" font-weight="700" fill="#e74c3c">53 萬/坪</text>
+  </g>
+
+  <!-- PART 2 Card -->
+  <g transform="translate(466,356)" filter="url(#shadowLg)">
+    <rect width="386" height="296" rx="6" fill="url(#heroNavy)"/>
+    <text x="24" y="70" font-family="'DM Serif Display', Georgia, serif" font-size="72" font-weight="700" fill="#ffffff" fill-opacity="0.09">02</text>
+    <rect x="24" y="32" width="40" height="3" fill="#e74c3c"/>
+    <text x="24" y="58" font-size="12" font-weight="700" fill="#e74c3c" letter-spacing="2.4">PART 02  ·  NEW TAIPEI</text>
+
+    <text x="24" y="118" font-family="'DM Serif Display', Georgia, 'PingFang TC', serif" font-size="26" font-weight="700" fill="#ffffff">新北性價比 Top3</text>
+    <text x="24" y="148" font-size="20" font-weight="600" fill="#ffffff" fill-opacity="0.85">新莊 · 汐止 · 淡水</text>
+
+    <line x1="24" y1="168" x2="362" y2="168" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+
+    <text x="24" y="196" font-size="13" fill="#c7d3e2">
+      <tspan x="24" dy="0">•  機能｜通勤｜坪效 三種最佳解</tspan>
+      <tspan x="24" dy="22">•  主力成交 1000-1500 萬佔 30-39%</tspan>
+      <tspan x="24" dy="22">•  淡水 1500 萬可買 44 坪（冠軍）</tspan>
+    </text>
+
+    <line x1="24" y1="254" x2="362" y2="254" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+    <text x="24" y="278" font-size="12" font-weight="700" fill="#8a9cb3" letter-spacing="1.4">NEW TAIPEI AVG 均坪</text>
+    <text x="362" y="278" text-anchor="end" font-family="'DM Serif Display', Georgia, serif" font-size="20" font-weight="700" fill="#e74c3c">58 萬 ▲ 4.88%</text>
+  </g>
+
+  <!-- PART 3 Card -->
+  <g transform="translate(872,356)" filter="url(#shadowLg)">
+    <rect width="348" height="296" rx="6" fill="url(#heroNavy)"/>
+    <text x="24" y="70" font-family="'DM Serif Display', Georgia, serif" font-size="72" font-weight="700" fill="#ffffff" fill-opacity="0.09">03</text>
+    <rect x="24" y="32" width="40" height="3" fill="#e74c3c"/>
+    <text x="24" y="58" font-size="12" font-weight="700" fill="#e74c3c" letter-spacing="2.4">PART 03  ·  POLICY</text>
+
+    <text x="24" y="118" font-family="'DM Serif Display', Georgia, 'PingFang TC', serif" font-size="26" font-weight="700" fill="#ffffff">捷運 × 政策</text>
+    <text x="24" y="148" font-size="20" font-weight="600" fill="#ffffff" fill-opacity="0.85">共同定義 2026 進場價值</text>
+
+    <line x1="24" y1="168" x2="324" y2="168" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+
+    <text x="24" y="196" font-size="13" fill="#c7d3e2">
+      <tspan x="24" dy="0">•  新青安：1.775% 至 2026/7/31</tspan>
+      <tspan x="24" dy="22">•  央行鬆綁第 2 戶成數 +10%</tspan>
+      <tspan x="24" dy="22">•  三鶯線 2026、汐東線 2032 通車</tspan>
+    </text>
+
+    <line x1="24" y1="254" x2="324" y2="254" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+    <text x="24" y="278" font-size="12" font-weight="700" fill="#8a9cb3" letter-spacing="1.4">DEADLINE 最後窗口</text>
+    <text x="324" y="278" text-anchor="end" font-family="'DM Serif Display', Georgia, serif" font-size="20" font-weight="700" fill="#e74c3c">2026 / 07 / 31</text>
+  </g>
+
+  <text x="60" y="694" font-size="12" fill="#8a9ab0" letter-spacing="1">HOMELAB · 雙北 500-1500 萬購屋指南</text>
+  <text x="1220" y="694" text-anchor="end" font-size="12" fill="#8a9ab0" letter-spacing="1">02 / 13</text>
+</svg>

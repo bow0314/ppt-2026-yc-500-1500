@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"
+     font-family="Arial, 'PingFang TC', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif">
+  <!--
+    Cover · Bento Grid — 6 cells
+    Background #ededea / gap 12px / rx 12
+  -->
+
+  <!-- Slide background (grid gap colour) -->
+  <rect width="1280" height="720" fill="#e5e5e1"/>
+
+  <!-- ═══════════════════════════════════
+       CELL 1 · Left large · Dark navy
+       x=60 y=60 w=600 h=600
+       ═══════════════════════════════════ -->
+  <rect x="60" y="60" width="600" height="600" rx="12" fill="#1b2838"/>
+
+  <!-- eyebrow -->
+  <text x="88" y="118" font-size="12" font-weight="700" letter-spacing="3.5" fill="#e74c3c">
+    2026 · HOMELAB 研究室
+  </text>
+  <rect x="88" y="126" width="44" height="3" fill="#e74c3c"/>
+
+  <!-- Main title line 1 -->
+  <text x="88" y="246"
+        font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Serif TC', serif"
+        font-size="92" font-weight="700" fill="#ffffff">購屋</text>
+
+  <!-- Main title line 2 -->
+  <text x="88" y="348"
+        font-family="'DM Serif Display', Georgia, 'PingFang TC', 'Noto Serif TC', serif"
+        font-size="72" font-weight="700" fill="#ffffff">決策報告</text>
+
+  <!-- Sub-caption -->
+  <text x="88" y="394" font-size="16" fill="#ffffff" opacity="0.55">
+    500–1500 萬 · 雙北雙城深度分析
+  </text>
+
+  <!-- Divider -->
+  <line x1="88" y1="572" x2="632" y2="572" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+
+  <!-- Bottom descriptor -->
+  <text x="88" y="598" font-size="14" fill="#ffffff" opacity="0.45">
+    捷運生活圈 · 總價帶分布 · 議價策略 · Top 10
+  </text>
+  <text x="88" y="622" font-size="12" fill="#ffffff" opacity="0.28" letter-spacing="1.5">
+    HOMELAB · 雙北購屋指南
+  </text>
+
+  <!-- ═══════════════════════════════════
+       CELL 2 · Top right · Red
+       x=672 y=60 w=548 h=188
+       ═══════════════════════════════════ -->
+  <rect x="672" y="60" width="548" height="188" rx="12" fill="#e74c3c"/>
+
+  <text x="704" y="106" font-size="12" font-weight="700" letter-spacing="3"
+        fill="#ffffff" opacity="0.75">台 北 市 均 價</text>
+
+  <text x="704" y="200"
+        font-family="'DM Serif Display', Georgia, serif"
+        font-size="82" font-weight="700" fill="#ffffff">78</text>
+
+  <text x="808" y="168" font-size="20" font-weight="700" fill="#ffffff" opacity="0.8">萬</text>
+  <text x="808" y="194" font-size="15" fill="#ffffff" opacity="0.65">/ 坪</text>
+
+  <text x="1192" y="234" text-anchor="end" font-size="11" letter-spacing="1.5"
+        fill="#ffffff" opacity="0.5">TAIPEI · 2026</text>
+
+  <!-- ═══════════════════════════════════
+       CELL 3 · Mid left · White
+       x=672 y=260 w=266 h=188
+       ═══════════════════════════════════ -->
+  <rect x="672" y="260" width="266" height="188" rx="12" fill="#ffffff"/>
+
+  <text x="704" y="306" font-size="11" font-weight="700" letter-spacing="2.5"
+        fill="#1b2838" opacity="0.45">新 北 市 均 價</text>
+
+  <text x="704" y="400"
+        font-family="'DM Serif Display', Georgia, serif"
+        font-size="74" font-weight="700" fill="#1b2838">42</text>
+
+  <text x="704" y="428" font-size="14" fill="#1b2838" opacity="0.45">萬 / 坪</text>
+
+  <!-- ═══════════════════════════════════
+       CELL 4 · Mid right · Light blue-gray
+       x=950 y=260 w=270 h=188
+       ═══════════════════════════════════ -->
+  <rect x="950" y="260" width="270" height="188" rx="12" fill="#dce9f6"/>
+
+  <text x="982" y="306" font-size="11" font-weight="700" letter-spacing="2.5"
+        fill="#1b2838" opacity="0.45">市 場 議 價 空 間</text>
+
+  <text x="982" y="396"
+        font-family="'DM Serif Display', Georgia, serif"
+        font-size="58" font-weight="700" fill="#1b2838">3–8%</text>
+
+  <text x="982" y="424" font-size="13" fill="#1b2838" opacity="0.4">議價彈性區間</text>
+
+  <!-- ═══════════════════════════════════
+       CELL 5 · Bottom left · Dark navy
+       x=672 y=460 w=266 h=200
+       ═══════════════════════════════════ -->
+  <rect x="672" y="460" width="266" height="200" rx="12" fill="#1b2838"/>
+
+  <!-- Brand mark -->
+  <rect x="704" y="494" width="4" height="36" fill="#e74c3c"/>
+  <text x="720" y="516" font-size="22" font-weight="800" fill="#ffffff">HOMELAB</text>
+  <text x="720" y="530" font-size="10" letter-spacing="2" fill="#ffffff" opacity="0.45"
+        font-weight="600">HOMELAB</text>
+
+  <line x1="704" y1="554" x2="910" y2="554" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+
+  <text x="704" y="578" font-size="13" fill="#ffffff" opacity="0.6">研究機構：HOMELAB 研究室</text>
+  <text x="704" y="600" font-size="13" fill="#ffffff" opacity="0.6">2026.04.06</text>
+  <!-- ═══════════════════════════════════
+       CELL 6 · Bottom right · Cream
+       x=950 y=460 w=270 h=200
+       ═══════════════════════════════════ -->
+  <rect x="950" y="460" width="270" height="200" rx="12" fill="#f5f5f0"/>
+
+  <text x="982" y="508" font-size="11" font-weight="700" letter-spacing="2.5"
+        fill="#1b2838" opacity="0.35">全 報 告 規 模</text>
+
+  <text x="982" y="592"
+        font-family="'DM Serif Display', Georgia, serif"
+        font-size="84" font-weight="700" fill="#1b2838">13</text>
+
+  <text x="982" y="622" font-size="13" fill="#1b2838" opacity="0.4" letter-spacing="1">頁 · 深度分析</text>
+
+  <text x="60" y="694" font-size="12" fill="#8a9ab0" letter-spacing="1">HOMELAB · 雙北 500-1500 萬購屋指南</text>
+  <text x="1220" y="694" text-anchor="end" font-size="12" fill="#8a9ab0" letter-spacing="1">01 / 13</text>
+</svg>
